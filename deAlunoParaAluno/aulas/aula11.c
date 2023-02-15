@@ -7,4 +7,6 @@ int main() {
         printf("%d\n", contador);
         contador++;
     }
+
+    return 0;
 }
