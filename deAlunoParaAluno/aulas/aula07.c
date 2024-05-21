@@ -1,3 +1,5 @@
+// a função scanf() serve para guardar o valor que o usuário entrar pelo seu teclado e guardar na variavel desejada
+
 #include <stdio.h>
 
 int main() {
