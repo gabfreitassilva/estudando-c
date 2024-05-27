@@ -1,10 +1,12 @@
 #include <stdio.h>
 int main() {
-    int num1 = 10;
-    int num2 = 20;
+    int numero1, numero2;
 
-    int resposta = 0;
-    num1 < num2 ? printf("sim\n") : printf("nao\n");
+    printf("Digite dois numeros inteiros: ");
+    scanf("%d %d", &numero1, &numero2);
+
+    printf("O numero %d e maior que %d: ", numero1, numero2);
+    numero1 > numero2 ? printf("sim\n") : printf("nao\n"); //if ternario
 
     return 0;
 }

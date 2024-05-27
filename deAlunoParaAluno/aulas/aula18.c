@@ -16,13 +16,14 @@ int main() {
         }
     } else {
         numero *= -1;
+        printf("-");
         while(numero != 0) {
             aux = numero % 10;
             printf("%d", aux);
             numero /= 10;
         }
-        printf("-");
     }
+    printf("\n");
 
     return 0;
 }

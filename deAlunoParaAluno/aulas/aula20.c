@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main() {
     char variavelChar = 'a';
-    printf("%c\n", variavelChar);
-    scanf("%c", &variavelChar);
-    printf("%c\n", variavelChar);
+    printf("Variavel caractere: %c\n", variavelChar);
 
     /*
     * em C não existe o tipo literal bool,
@@ -13,9 +11,13 @@ int main() {
     */
 
    int variavelInt = 10;
-   printf("%d\n", variavelInt);
-   scanf("%d", &variavelInt);
-   printf("%d\n", variavelInt);
+   printf("Variavel inteira: %d\n", variavelInt);
+
+   /*
+   * em C existem os tipos int, char, double, float e seus
+   * modificadores para definirmos tipos de dados em
+   * variaveis.
+   */
 
     return 0;
 }
