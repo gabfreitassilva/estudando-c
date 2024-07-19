@@ -5,7 +5,6 @@ int main() {
     /*comentário de 
     varias linhas*/
     
-    printf("Arroz branco.\n");
-    
+    printf("Arroz branco.\n");    
     return 0;
 }
