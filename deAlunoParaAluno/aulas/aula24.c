@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // como qualquer variavel, um vetor pode ser atribuido manualmente de forma direta
+    // como qualquer variável, um vetor pode ser atribuído manualmente de forma direta
     float notas[4];
     float media, soma;
 

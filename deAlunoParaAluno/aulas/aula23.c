@@ -12,7 +12,7 @@ int main() {
     }
 
     printf("Seu nome e: ");
-    for (int j = 0; j < 10; j++) { // ciclo para exibir o conteudo do vetor
+    for (int j = 0; j < 10; j++) { // ciclo para exibir o conteúdo do vetor
         printf("%c", nome[j]);
         if (nome[j] == '\n') { // condição paa finalizar o ciclo de exibição
             j = 9;

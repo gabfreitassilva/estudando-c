@@ -6,5 +6,6 @@ int main() {
     varias linhas*/
     
     printf("Arroz branco.\n");    
+    
     return 0;
 }
